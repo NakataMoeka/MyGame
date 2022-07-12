@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{38cedc2e-1f11-455e-8a50-db8e3fa0dc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HLSL\3d">
+      <UniqueIdentifier>{20852dec-bc3c-4e93-aeda-227cda28e057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3d\fbx">
+      <UniqueIdentifier>{be5bbe79-55df-4d3e-b046-0bb5b8e88e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3d\obj">
+      <UniqueIdentifier>{4f9787f2-9399-48f0-bab8-cd1dc8df384e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\2d">
+      <UniqueIdentifier>{11e9a7b7-d166-402b-920b-b683285884fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\2d\posteffect">
+      <UniqueIdentifier>{7fdd82e8-a493-4df6-a3d4-3e2e77dbc06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{0af46e8d-2344-4391-aa32-8b9d79c5be2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\2d">
+      <UniqueIdentifier>{f6eca569-6d02-4300-8b39-edf1e96d23e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\3d">
+      <UniqueIdentifier>{c81aa983-fd24-436d-93f0-52e0275fefc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\3d\light">
+      <UniqueIdentifier>{26ec9426-ad30-4d8a-ad2d-81c9a3c5deb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\3d\fbx">
+      <UniqueIdentifier>{7a3270e0-a118-42d7-b712-dae35167a7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\3d\obj">
+      <UniqueIdentifier>{88091a91-be9e-4f37-9bd4-0462efc396e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\camera">
+      <UniqueIdentifier>{018a49dd-0dc5-4c79-8ba7-943a56a1f818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Common">
+      <UniqueIdentifier>{9c8fcbec-81bc-45d1-a4c4-1df0234423da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\others">
+      <UniqueIdentifier>{96bfd6e6-ce33-4984-8725-60229998b883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\audio">
+      <UniqueIdentifier>{169d3a54-5b3a-41cb-b8b4-d03ce29f9998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\input">
+      <UniqueIdentifier>{3aa9bbac-beaf-461a-9c79-1b9ce2629b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6f35af6f-1a7d-4035-9b38-bc726536e710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\scene">
+      <UniqueIdentifier>{c1923a4d-0c3d-4ea4-a17e-16ddd50df236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\player">
+      <UniqueIdentifier>{9191c314-550f-469e-bbb6-db002c93363e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\others\collision">
+      <UniqueIdentifier>{e07f5ec7-ceef-4321-83db-e4ee7794b159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\others\easing">
+      <UniqueIdentifier>{3d1a1b9c-09fb-4d9d-b58f-fc9125ffef7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Common\Frame">
+      <UniqueIdentifier>{64f12138-5e11-4a54-8f1f-eeac2a4f0a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Onject">
+      <UniqueIdentifier>{a62df537-8e27-4eb1-8cab-5444c316321b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2d\DebugText.cpp">
+      <Filter>Library\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Sprite.cpp">
+      <Filter>Library\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\ParticleManager.cpp">
+      <Filter>Library\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\Camera.cpp">
+      <Filter>Library\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Audio.cpp">
+      <Filter>Library\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="input\input.cpp">
+      <Filter>Library\input</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\GameScene.cpp">
+      <Filter>Game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon\DXCommon.cpp">
+      <Filter>Library\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\PostEffect.cpp">
+      <Filter>Library\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon\WinApp.cpp">
+      <Filter>Library\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\LightGroup.cpp">
+      <Filter>Library\3d\light</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\FbxLoader.cpp">
+      <Filter>Library\3d\fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\FbxModel.cpp">
+      <Filter>Library\3d\fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\FbxObject.cpp">
+      <Filter>Library\3d\fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Model.cpp">
+      <Filter>Library\3d\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\Object3d.cpp">
+      <Filter>Library\3d\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="game\player.cpp">
+      <Filter>Game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="others\Collision.cpp">
+      <Filter>Library\others\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="others\CollisionPrimitive.cpp">
+      <Filter>Library\others\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="others\Ease.cpp">
+      <Filter>Library\others\easing</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon\Framework.cpp">
+      <Filter>Library\Common\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon\NMGame.cpp">
+      <Filter>Library\Common\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Library\Common\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon\FPS.cpp">
+      <Filter>Library\Common\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\SpriteAnimation.cpp">
+      <Filter>Library\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GameObject.cpp">
+      <Filter>Game\Onject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\FBX.hlsli">
+      <Filter>HLSL\3d\fbx</Filter>
+    </None>
+    <None Include="Resources\shaders\Blur.hlsli">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </None>
+    <None Include="Resources\shaders\PostEffectTest.hlsli">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </None>
+    <None Include="Resources\shaders\color.hlsli">
+      <Filter>HLSL\3d\obj</Filter>
+    </None>
+    <None Include="Resources\shaders\OBJ.hlsli">
+      <Filter>HLSL\3d\obj</Filter>
+    </None>
+    <None Include="Resources\shaders\Toon.hlsli">
+      <Filter>HLSL\3d\obj</Filter>
+    </None>
+    <None Include="Resources\shaders\Particle.hlsli">
+      <Filter>HLSL\3d</Filter>
+    </None>
+    <None Include="Resources\shaders\Sprite.hlsli">
+      <Filter>HLSL\2d</Filter>
+    </None>
+    <None Include="Resources\shaders\PostEffectColor.hlsli">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\shaders\FBXPS.hlsl">
+      <Filter>HLSL\3d\fbx</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\FBXVS.hlsl">
+      <Filter>HLSL\3d\fbx</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\BlurPS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\BlurVS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PostEffectTestPS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PostEffectTestVS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\colorPS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\colorVS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\OBJPS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\OBJVS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ToonPS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ToonVS.hlsl">
+      <Filter>HLSL\3d\obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ParticlePS.hlsl">
+      <Filter>HLSL\3d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ParticleGS.hlsl">
+      <Filter>HLSL\3d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ParticleVS.hlsl">
+      <Filter>HLSL\3d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\SpritePS.hlsl">
+      <Filter>HLSL\2d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\SpriteVS.hlsl">
+      <Filter>HLSL\2d</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PostEffectColorPS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PostEffectColorVS.hlsl">
+      <Filter>HLSL\2d\posteffect</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2d\DebugText.h">
+      <Filter>Library\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Sprite.h">
+      <Filter>Library\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\ParticleManager.h">
+      <Filter>Library\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\Camera.h">
+      <Filter>Library\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Audio.h">
+      <Filter>Library\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\SafeDelete.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input.h">
+      <Filter>Library\input</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameScene.h">
+      <Filter>Game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\DXCommon.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\PostEffect.h">
+      <Filter>Library\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\WinApp.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\LightGroup.h">
+      <Filter>Library\3d\light</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\FbxLoader.h">
+      <Filter>Library\3d\fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\FbxModel.h">
+      <Filter>Library\3d\fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\FbxObject.h">
+      <Filter>Library\3d\fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Model.h">
+      <Filter>Library\3d\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Object3d.h">
+      <Filter>Library\3d\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="game\player.h">
+      <Filter>Game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\PointLight.h">
+      <Filter>Library\3d\light</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\DirectionalLight.h">
+      <Filter>Library\3d\light</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\SpotLight.h">
+      <Filter>Library\3d\light</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\CircleShadow.h">
+      <Filter>Library\3d\light</Filter>
+    </ClInclude>
+    <ClInclude Include="others\Collision.h">
+      <Filter>Library\others\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="others\CollisionPrimitive.h">
+      <Filter>Library\others\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="others\Ease.h">
+      <Filter>Library\others\easing</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\Framework.h">
+      <Filter>Library\Common\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\NMGame.h">
+      <Filter>Library\Common\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon\FPS.h">
+      <Filter>Library\Common\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\SpriteAnimation.h">
+      <Filter>Library\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GameObject.h">
+      <Filter>Game\Onject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
